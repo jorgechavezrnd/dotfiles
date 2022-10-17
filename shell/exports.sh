@@ -34,7 +34,7 @@ export FZF_DEFAULT_OPTS="--color=$fzf_colors --reverse"
 # ------------------------------------------------------------------------------
 # Path - The higher it is, the more priority it has
 # ------------------------------------------------------------------------------
-path+=(
+path=(
 	"$HOME/bin"
 	"$DOTLY_PATH/bin"
 	"$DOTFILES_PATH/bin"
@@ -51,6 +51,7 @@ path+=(
 	"/usr/bin"
 	"/usr/sbin"
 	"/sbin"
+	$path
 )
 
 export path

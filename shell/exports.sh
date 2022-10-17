@@ -9,9 +9,16 @@ export CODELY_THEME_PWD_MODE="short" # full, short, home_relative
 # ------------------------------------------------------------------------------
 # Languages
 # ------------------------------------------------------------------------------
-export JAVA_HOME='/Library/Java/JavaVirtualMachines/amazon-corretto-15.jdk/Contents/Home'
+export JAVA_HOME='/Users/jorge/.sdkman/candidates/java/current'
 export GEM_HOME="$HOME/.gem"
 export GOPATH="$HOME/.go"
+
+# ------------------------------------------------------------------------------
+# SDKMAN
+# ------------------------------------------------------------------------------
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 # ------------------------------------------------------------------------------
 # Apps
